@@ -520,6 +520,9 @@ a {
         align-self: center;
         align-content: center;
     }
+    .content2 p{
+      font-size: 0.9rem;
+    }
 }
 
 .section-random456 {
