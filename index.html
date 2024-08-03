@@ -25,11 +25,10 @@
       
             <ul class="nav-links">
               <i class="uil uil-times navCloseBtn"></i>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Contact Me</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
             </ul>
           </nav>
       
@@ -49,14 +48,14 @@
           <div class="header2">
               <h3>About Me</h3>
               <h1>&#x3c;&#x3e;Full-Stack Website Developer&#x3c;&#x2f;&#x3e;</h1>
-             <section class="showing">
+             <section>
                 <a href="about.html" class="button">More About Me</a>
                 <div class="icons">
-                  <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                  <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                  <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-behance"></i></a>
-                </div>  
+                  <a href="http://wa.me/+2348077092607" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="https://x.com/onrooleyy" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="https://github.com/MilanCodesWebsites" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://www.behance.net/luckyprsochima" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                </div> 
              </section>
           </div>
           <div class="content2">
@@ -75,16 +74,7 @@
       </div>
       </div>
       
-      <section class="hide">
-        <a href="about.html" class="button">More About Me</a>
-            <div class="icons">
-              <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-              <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-behance"></i></a>
-            </div>  
-      </section>
-
+      
       <div class="expertise">
         <div class="cont1">
             <h3>Specialization</h3>
@@ -246,6 +236,35 @@
 
 
 
+<footer class="footer-random123">
+  <div class="footer-logo-random123">
+      <img src="imgs/favicon.png" alt="Logo"> <!-- Replace 'logo.png' with the actual logo image path -->
+  </div>
+  <div class="footer-section-random123">
+      <h4>Quick Links</h4>
+      <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </div>
+  <div class="footer-section-random123 footer-contact-random123">
+      <h4>Contact Me</h4>
+      <p>Phone: +234 807 709 2607<br></p>
+      <p>Email: princesochimaobim@gmail.com</p>
+  </div>
+  <div class="newsletter">
+      <form class="form2">
+          <span class="title">Subscribe to my newsletter.</span>
+          <p class="description">New offers and services, delivered straight to your inbox.</p>
+          <div>
+            <input placeholder="Enter your email" type="email" name="email" id="email-address">
+            <button type="submit">Subscribe</button>
+          </div>
+        </form>
+  </div>
+</footer>
 
 
 
@@ -311,7 +330,7 @@ navCloseBtn.addEventListener("click", () => {
                 loadingScreen.style.display = 'none';
                 content.classList.add('visible');
                 document.body.style.overflow = 'auto'; // Allow scrolling after loading
-            }, 5000);
+            }, 3000);
         };
     </script>
     <script>
