@@ -558,4 +558,21 @@ a {
     color: white;
     cursor: pointer;
   }
-  
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c1c1c; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff9000; /* Orange color */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+}
