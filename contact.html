@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prince Izuehie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="contact.css" />
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="loading-screen">
+        <div class="loading-bar" id="loadingBar"></div>
+        <div class="loader"></div>
+    </div>
+
+    <div class="content" id="content">
+        <nav class="nav">
+            <i class="uil uil-bars navOpenBtn"></i>
+            <a href="#" class="logo">Prince</a>
+      
+            <ul class="nav-links">
+              <i class="uil uil-times navCloseBtn"></i>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+          </nav>
+
+
+          <div class="container">
+            <div>
+                <h4>Contact</h4>
+            <h1>Get In Touch with Me</h1>
+
+            </div>
+        </div>
+
+
+        <div class="cont">
+            <div class="lets">
+                <h1>Let's bring your vision to reality, one line of code at a time</h1>
+            </div>
+            <div class="lock">
+                Ready to bring your vision to life? As a passionate web designer, I turn ideas into stunning digital experiences. Whether you need a sleek portfolio, a dynamic e-commerce site, or a captivating landing page, I'm here to craft something unique for you. Let’s connect and create something extraordinary. Your next big project starts with a conversation—reach out and let's get started today!
+            </div>
+        </div>
+
+
+        <div class="contact">
+              
+          <div class="maincont2">
+            <div class="bigblogcont">
+               <div class="mainblog">
+                <form action="https://submit-form.com/qbldtzAbd" method="post">
+                    <br><br><br>
+                   <h2 style="width: 100%; text-align: center; color: white;">Get In Touch Now</h2>
+                    <br><br><br>
+                    <input type="text" placeholder="Your Name" required>    <input type="email" class="email" required placeholder="Your Email">
+                    <br><br>
+                    <textarea name="" id="" required style="width: 100%;" placeholder="Enter Your Message"></textarea>
+                    <br>
+                    <input type="hidden" name="_redirect" value="https://confirm-seven.vercel.app/">
+                    <br><br>
+                    <button type="submit" class="submit">Send Message &nbsp;&nbsp;&nbsp;<i style="color: #000;" class="fa fa-angle-right"></i></button>
+                </form>
+               </div>
+            </div>
+            <div class="smallblogcont">
+                <div class="minorblog">
+                  <div class="footer">
+                    <div class="contact-info">
+                        <div><i class="fas fa-map-marker-alt"></i> Port Harcourt, Rivers State</div>
+                        <div><i class="fas fa-phone"></i> +234 809 666 3633</div>
+                        <div><i class="fas fa-envelope"></i> fulcrum1305@gmail.com</div>
+                    </div>
+                
+                    <hr>
+                
+                    <div class="social-icons">
+                      <a href="http://wa.me/+2348077092607" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                      <a href="https://x.com/onrooleyy" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                      <a href="https://github.com/MilanCodesWebsites" target="_blank"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.behance.net/luckyprsochima" target="_blank"><i class="fa-brands fa-behance"></i></a> 
+                    </div>
+                
+                    <hr>
+                
+                    <div class="rights">
+                        &copy; ALL OF THE RIGHTS RESERVED
+                    </div>
+                </div>
+                
+                    </div>
+                </div>
+            </div>
+           </div>
+          
+         
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <script src="https://kit.fontawesome.com/a7cbe35a69.js" crossorigin="anonymous"></script>
+        <script>
+            const nav = document.querySelector(".nav"),
+      searchIcon = document.querySelector("#searchIcon"),
+      navOpenBtn = document.querySelector(".navOpenBtn"),
+      navCloseBtn = document.querySelector(".navCloseBtn");
+    
+    navOpenBtn.addEventListener("click", () => {
+      nav.classList.add("openNav");
+      nav.classList.remove("openSearch");
+      searchIcon.classList.replace("uil-times", "uil-search");
+    });
+    navCloseBtn.addEventListener("click", () => {
+      nav.classList.remove("openNav");
+    });
+        </script>
+         <script>
+            // Simulate loading
+            window.onload = function() {
+                const loadingBar = document.getElementById('loadingBar');
+                const loadingScreen = document.querySelector('.loading-screen');
+                const content = document.getElementById('content');
+    
+                // Increase the width of the loading bar
+                loadingBar.style.width = '100%';
+    
+                // Hide loading screen after 2 seconds
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                    content.classList.add('visible');
+                    document.body.style.overflow = 'auto'; // Allow scrolling after loading
+                }, 3000);
+            };
+        </script>
+      </body>
+    </html>      
